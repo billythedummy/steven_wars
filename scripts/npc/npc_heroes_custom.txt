@@ -1,0 +1,50 @@
+"DOTAHeroes"
+{
+  "npc_dota_hero_sven_barebones"
+  {
+    "AbilityLayout"     "4"
+    "override_hero"     "npc_dota_hero_sven"
+    "SoundSet"          "0" 
+    "Ability1"        "sven_storm_bolt_lua" 
+    "Ability2"        "sven_woosh_lua"
+    "Ability3"        "warcry_datadriven"
+    "Ability4"        "last_attacker_tracker_datadriven"
+
+
+    "ArmorPhysical"       "0"                 // Physical protection.
+    "MagicalResistance"       "0"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
+    "AttackDamageMin"     "0"                   // Damage range min.
+    "AttackDamageMax"     "0"                   // Damage range max.
+
+    "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"   "0"                   // Base strength
+    "AttributeStrengthGain"   "0"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "0"                   // Base intelligence
+    "AttributeIntelligenceGain" "0"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "0"                   // Base agility
+    "AttributeAgilityGain"    "0"                   // Agility bonus per level.
+
+    "BountyXP"          "0"                 // Experience earn.
+    "BountyGoldMin"       "0"                   // Gold earned min.
+    "BountyGoldMax"       "0"                   // Gold earned max.
+
+    //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    //"RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "360"                 // Speed.
+    "MovementTurnRate"      "1.0"                 // Turning rate.
+
+    "StatusHealth"        "1000"                 // Base health.
+    "StatusHealthRegen"     "0.0"                 // Health regeneration rate.
+    "StatusMana"        "400"                   // Base mana.
+    "StatusManaRegen"     "100.0"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "1800"                  // Range of vision at night time.
+
+    "HasInventory"          "0"
+  }
+}

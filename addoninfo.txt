@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"TeamCount"		"10"
+	"sven_wars"
+	{
+		"MaxPlayers"		"10"
+	}
+}
