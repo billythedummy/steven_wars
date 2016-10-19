@@ -1,8 +1,0 @@
-sven_wars
-{
-	material materials/overviews/sven_wars.vmat
-	pos_x -2203
-	pos_y 2386
-	scale 4.583
-}
-
